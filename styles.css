@@ -555,7 +555,6 @@ nav ul li.active a{
     background: #080715;
     position: relative;
     margin-bottom: 115px;
-  background: linear-gradient(135deg, black, #000033, #330066);
 }
 
 .faq-width{
@@ -678,7 +677,6 @@ nav ul li.active a{
 
 .roadMap{
     height: 286px;
-    background: linear-gradient(135deg, black, #000033, #330066);
     width: 100%;
     min-height: 100vh;
     background: #080715;
