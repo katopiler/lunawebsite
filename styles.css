@@ -678,7 +678,7 @@ nav ul li.active a{
 }
 
 .accordion .accordion-content p {
-    background: linear-gradient(135deg, black, #000033, #330066);
+    color: #686586;
     font-size: 1rem;
     font-weight: 300;
     margin: 2em 0;
