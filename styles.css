@@ -35,7 +35,7 @@ body {
 
 .mainContent {
   /* Your existing styles for the main content container */
-
+  background: linear-gradient(135deg, black, #000033, #330066);
 }
 
 /* Not Supported */
@@ -392,6 +392,7 @@ nav ul li.active a{
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
+    background: linear-gradient(135deg, black, #000033, #330066);
 }
 
 .section-top>p {
@@ -403,9 +404,11 @@ nav ul li.active a{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     place-items: center;
+    background: linear-gradient(135deg, black, #000033, #330066);
 }
 
 .pricing-item {
+    background: linear-gradient(135deg, black, #000033, #330066);
     max-width: 32rem;
     position: relative;
     padding: 3rem;
@@ -553,6 +556,7 @@ nav ul li.active a{
     background: #080715;
     position: relative;
     margin-bottom: 115px;
+    background: linear-gradient(135deg, black, #000033, #330066);
 }
 
 .faq-width{
@@ -676,6 +680,7 @@ nav ul li.active a{
 
 .roadMap{
     height: 286px;
+    background: linear-gradient(135deg, black, #000033, #330066);
     width: 100%;
     min-height: 100vh;
     background: #080715;
