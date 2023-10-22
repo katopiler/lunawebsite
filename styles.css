@@ -549,16 +549,15 @@ nav ul li.active a{
 
 /* FAQ */
 
-.faqArea{
-  background: linear-gradient(135deg, black, #000033, #330066);
+.faqArea {
+    background: linear-gradient(135deg, black, #000033, #330066);
     height: 430px;
     width: 100%;
-    background: #080715;
     position: relative;
     margin-bottom: 115px;
 }
 
-.faq-width{
+.faq-width {
     width: 1400px;
     max-width: 90%;
     margin: 0 auto;
@@ -566,31 +565,32 @@ nav ul li.active a{
     justify-content: center;
 }
 
-.accordion .main-text{
+.accordion .main-text {
     text-align: center;
     margin-bottom: 40px;
     margin-top: 69px;
 }
 
-.accordion .main-text h3{
+.accordion .main-text h3 {
     font-weight: 400;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.accordion .main-text h1{
+.accordion .main-text h1 {
     color: #fff;
     font-weight: 500;
 }
 
-.accordion .main-text p{
+.accordion .main-text p {
     color: #686586;
 }
 
 .accordion .accordion-item {
     border-bottom: 1px solid #18172C;
-  }
-  .accordion button {
+}
+
+.accordion button {
     position: relative;
     display: block;
     text-align: left;
@@ -602,22 +602,26 @@ nav ul li.active a{
     border: none;
     background: none;
     outline: none;
-  }
-  .accordion button:hover,
-  .accordion button:focus {
+}
+
+.accordion button:hover,
+.accordion button:focus {
     cursor: pointer;
     color: #ffffff;
-  }
-  .accordion button:hover::after,
-  .accordion button:focus::after {
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
     cursor: pointer;
     color: #18172C;
     border: 1px solid #18172C;
-  }
-  .accordion button .accordion-title {
+}
+
+.accordion button .accordion-title {
     padding: 1em 1.5em 1em 0;
-  }
-  .accordion button .icon {
+}
+
+.accordion button .icon {
     display: inline-block;
     position: absolute;
     top: 18px;
@@ -626,8 +630,9 @@ nav ul li.active a{
     height: 22px;
     border: 1px solid;
     border-radius: 22px;
-  }
-  .accordion button .icon::before {
+}
+
+.accordion button .icon::before {
     display: block;
     position: absolute;
     content: '';
@@ -636,8 +641,9 @@ nav ul li.active a{
     width: 10px;
     height: 2px;
     background: currentColor;
-  }
-  .accordion button .icon::after {
+}
+
+.accordion button .icon::after {
     display: block;
     position: absolute;
     content: '';
@@ -646,32 +652,38 @@ nav ul li.active a{
     width: 2px;
     height: 10px;
     background: currentColor;
-  }
-  .accordion button[aria-expanded='true'] {
+}
+
+.accordion button[aria-expanded='true'] {
     color: white;
-  }
-  .accordion button[aria-expanded='true'] .icon::after {
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
     width: 0;
-  }
-  .accordion button[aria-expanded='true'] + .accordion-content {
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
     opacity: 1;
     max-height: 9em;
     transition: all 200ms linear;
     will-change: opacity, max-height;
-  }
-  .accordion .accordion-content {
+}
+
+.accordion .accordion-content {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
     transition: opacity 200ms linear, max-height 200ms linear;
     will-change: opacity, max-height;
-  }
-  .accordion .accordion-content p {
+}
+
+.accordion .accordion-content p {
     color: #686586;
     font-size: 1rem;
     font-weight: 300;
     margin: 2em 0;
-  }
+}
+
 /* FAQ AREA ENDS HERE */
 
 /* PLAN BOARD */
