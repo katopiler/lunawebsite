@@ -555,11 +555,10 @@ nav ul li.active a{
     background: #080715;
     position: relative;
     margin-bottom: 115px;
-    background: linear-gradient(135deg, black, #000033, #330066);
+  background: linear-gradient(135deg, black, #000033, #330066);
 }
 
 .faq-width{
- background: -webkit-linear-gradient(#A750FD, #9C3EFA);
     width: 1400px;
     max-width: 90%;
     margin: 0 auto;
