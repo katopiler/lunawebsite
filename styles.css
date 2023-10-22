@@ -550,6 +550,7 @@ nav ul li.active a{
 /* FAQ */
 
 .faqArea{
+  background: linear-gradient(135deg, black, #000033, #330066);
     height: 430px;
     width: 100%;
     background: #080715;
