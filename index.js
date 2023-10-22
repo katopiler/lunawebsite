@@ -24,27 +24,20 @@ let server = app.listen(3000, function() {
 });
 
 // JavaScript code for the accordion interaction
+
+// JavaScript code for the accordion interaction
 const items = document.querySelectorAll('.accordion button');
 
-document.addEventListener('DOMContentLoaded', function() {
-  const accordionItems = document.querySelectorAll('.accordion-item button');
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
 
-  function toggleAccordion() {
-    const content = this.nextElementSibling;
-    const expanded = this.getAttribute('aria-expanded') === 'true';
-
-    // Close all accordion items
-    accordionItems.forEach(item => {
-      item.setAttribute('aria-expanded', 'false');
-      content.style.maxHeight = '0';
-    });
-
-    // Toggle the selected accordion item
-    this.setAttribute('aria-expanded', !expanded);
-    content.style.maxHeight = expanded ? '0' : content.scrollHeight + 'px';
+  for (let i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
   }
 
-  accordionItems.forEach(item => {
-    item.addEventListener('click', toggleAccordion);
-  });
-});
+  if (itemToggle === 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
